@@ -27,19 +27,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:textAllCaps="false" android:onClick="rbutton1"/>
+                android:textAllCaps="false" android:onClick="radiobutton_1"/>
         <RadioButton
                 android:id="@+id/rbutton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:textAllCaps="false" android:onClick="rbutton2"/>
+                android:textAllCaps="false" android:onClick="radiobutton_2"/>
         <RadioButton
                 android:id="@+id/rbutton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:textAllCaps="false" android:onClick="rbutton3"/>
+                android:textAllCaps="false" android:onClick="radiobutton_3"/>
 
 
     </RadioGroup>
