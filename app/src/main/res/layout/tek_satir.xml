@@ -27,18 +27,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:textAllCaps="false" android:onClick="radiobutton_1"/>
+                android:textAllCaps="false"
+                android:checked="true"
+                android:buttonTint="@color/colorButtonNormal"
+                android:onClick="radiobutton_1"/>
         <RadioButton
                 android:id="@+id/rbutton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
+                android:checked="true"
+                android:buttonTint="@color/colorButtonNormal"
                 android:textAllCaps="false" android:onClick="radiobutton_2"/>
         <RadioButton
                 android:id="@+id/rbutton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
+                android:checked="true"
+                android:buttonTint="@color/colorButtonNormal"
                 android:textAllCaps="false" android:onClick="radiobutton_3"/>
 
 
