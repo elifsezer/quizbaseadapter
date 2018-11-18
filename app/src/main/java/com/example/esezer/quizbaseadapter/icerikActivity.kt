@@ -21,4 +21,5 @@ class icerikActivity : AppCompatActivity() {
         var intent=Intent(applicationContext,MainActivity::class.java)
         startActivity(intent)
     }
+
 }

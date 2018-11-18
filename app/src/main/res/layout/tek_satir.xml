@@ -7,6 +7,7 @@
 
     <TextView
             android:text="TextView"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15sp"
@@ -28,7 +29,6 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:textAllCaps="false"
-                android:checked="true"
                 android:buttonTint="@color/colorButtonNormal"
                 android:onClick="radiobutton_1"/>
         <RadioButton
@@ -36,17 +36,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:checked="true"
                 android:buttonTint="@color/colorButtonNormal"
-                android:textAllCaps="false" android:onClick="radiobutton_2"/>
+                android:textAllCaps="false"
+                android:onClick="radiobutton_2"/>
         <RadioButton
                 android:id="@+id/rbutton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:checked="true"
                 android:buttonTint="@color/colorButtonNormal"
-                android:textAllCaps="false" android:onClick="radiobutton_3"/>
+                android:textAllCaps="false"
+                android:onClick="radiobutton_3"/>
 
 
     </RadioGroup>
